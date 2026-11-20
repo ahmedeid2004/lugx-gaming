@@ -1,0 +1,281 @@
+body {
+    margin: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logo {
+    width: 100px;
+    border-radius: 50px;
+}
+
+.header {
+    background-color: rgb(93, 145, 229);
+    border-radius: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.ptn {
+    background-color: rgb(242, 177, 177);
+    color: white;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 15px;
+    text-transform: capitalize;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.header-links a:not(.ptn) {
+    color: white;
+    padding: 5px 15px;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.header-links a:not(.ptn):hover,
+.header-links a.active {
+    background-color: rgb(211, 207, 201);
+    color: rgb(115, 115, 110);
+}
+
+.ptn:hover {
+    background-color: rgb(130, 146, 160);
+    color: aliceblue;
+}
+
+.landingpage {
+    background-color: rgb(93, 145, 229);
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 50px;
+    align-items: center;
+    color: white;
+    border-radius: 0 0 50px 50px;
+}
+
+.landingpagesearch {
+    position: relative;
+    width: fit-content;
+}
+
+.landingpagesearch input {
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    height: 35px;
+    padding: 0 15px;
+    width: 240px;
+}
+
+.landingpagesearch button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 35px;
+}
+
+.image-container img {
+    border-radius: 20px;
+    width: 250px;
+}
+
+.landing-page-left {
+    width: 450px;
+}
+
+.features-section {
+    padding: 25px 50px;
+}
+
+.feature {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    box-sizing: border-box;
+}
+
+.feuture-box {
+    background-color: rgb(177, 183, 187);
+    border-radius: 25px;
+    text-align: center;
+    padding: 20px;
+    flex: 1;
+    min-width: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.feuture-box img {
+    background-color: white;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    max-width: 100%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.feuture-box p {
+    font-size: 18px;
+    margin: 10px 0 0 0;
+}
+
+
+
+.feuture-box:hover,
+.game-card:hover,
+.catigory-card:hover {
+    transform: translateY(-6px);
+}
+
+.most-played {
+    background-color: rgb(245, 245, 245);
+    border-radius: 50px;
+    padding: 30px 50px;
+    margin: 20px 50px;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.most-played-cards {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.imee {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    height: 220px;
+    border-radius: 20px 20px 0 0;
+}
+
+.game-card {
+    width: 100%;
+    background-color: rgba(154, 153, 153, 0.863);
+    border-radius: 20px;
+    text-align: center;
+    padding-bottom: 15px;
+    transition: transform 0.3s ease;
+}
+
+.catigories {
+    text-align: center;
+    padding: 40px 50px;
+}
+
+.catigories span {
+    color: rgb(218, 90, 90);
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.categories-cards {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 20px;
+}
+
+.catigory-card {
+    background-color: rgb(177, 183, 187);
+    border-radius: 25px;
+    width: 250px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.imme2 {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    height: 220px;
+    border-radius: 25px;
+}
+
+.catigory-card h4 {
+    background-color: rgb(178, 179, 179);
+    margin: 0;
+    padding: 15px;
+}
+
+.CTA-Section {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 30px 50px;
+}
+
+.shop-box,
+.newsletter-box {
+    background-color: rgb(247, 247, 247);
+    padding: 40px;
+    border-radius: 25px;
+    width: 50%;
+}
+
+.shop-box span,
+.newsletter-box span {
+    color: rgb(218, 90, 90);
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.subscribe-form {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.subscribe-form input {
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    height: 35px;
+    padding: 0 15px;
+    width: 70%;
+}
+
+.footer {
+    background-color: rgb(93, 145, 229);
+    color: white;
+    text-align: center;
+    padding: 30px;
+    border-radius: 100px 100px 0 0;
+    margin-top: 50px;
+}
+
+@media (max-width: 900px) {
+    .header,
+    .landingpage,
+    .feature,
+    .most-played-cards,
+    .categories-cards,
+    .CTA-Section {
+        flex-wrap: wrap;
+    }
+
+    .landing-page-left,
+    .shop-box,
+    .newsletter-box {
+        width: 100%;
+    }
+
+    .feuture-box,
+    .game-card {
+        width: calc(50% - 15px);
+    }
+}

@@ -1,0 +1,152 @@
+body {
+    margin: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logo {
+    width: 100px;
+    border-radius: 50px;
+}
+
+.header {
+    background-color: rgb(93, 145, 229);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.ptn {
+    background-color: rgb(242, 177, 177);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.ptn:hover {
+    background-color: rgb(130, 146, 160);
+    color: aliceblue;
+}
+
+.header-links a {
+    color: white;
+    padding: 5px 15px;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.header-links a:hover,
+.header-links a.active {
+    background-color: rgb(211, 207, 201);
+    color: rgb(115, 115, 110);
+}
+
+.page-heading {
+    background-color: rgb(93, 145, 229);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    border-radius: 0 0 80px 80px;
+}
+
+.page-heading h1 {
+    margin: 0 0 10px 0;
+    font-size: 40px;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 60px 50px;
+}
+
+.contact-info-box {
+    background-color: rgb(247, 247, 247);
+    padding: 40px;
+    border-radius: 25px;
+    width: 40%;
+    height: fit-content;
+}
+
+.contact-info-box span {
+    color: rgb(218, 90, 90);
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.contact-info-box h2 {
+    margin: 10px 0 20px 0;
+}
+
+.contact-info-box p {
+    color: rgb(100, 100, 100);
+    line-height: 1.6;
+}
+
+.info-item {
+    margin-top: 25px;
+}
+
+.info-item h4 {
+    margin: 0 0 5px 0;
+}
+
+.info-item p {
+    margin: 0;
+}
+
+.contact-form-side {
+    width: 60%;
+}
+
+.map-box iframe {
+    width: 100%;
+    height: 250px;
+    border-radius: 25px;
+    margin-bottom: 30px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-row {
+    display: flex;
+    gap: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    background-color: rgb(247, 247, 247);
+    border: 1px solid rgb(225, 225, 225);
+    border-radius: 25px;
+    padding: 15px 20px;
+    outline: none;
+    font-family: inherit;
+}
+
+.contact-form textarea {
+    height: 120px;
+    resize: none;
+}
+
+.contact-form button {
+    width: fit-content;
+}
+
+.footer {
+    background-color: rgb(93, 145, 229);
+    color: white;
+    text-align: center;
+    padding: 30px;
+    border-radius: 100px 100px 0 0;
+    margin-top: 50px;
+}

@@ -1,0 +1,121 @@
+body {
+    margin: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(247, 247, 247);
+}
+
+.logo {
+    width: 100px;
+    border-radius: 50px;
+}
+
+.header {
+    background-color: rgb(93, 145, 229);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.header-links a {
+    color: white;
+    padding: 5px 15px;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.header-links a:hover {
+    background-color: rgb(211, 207, 201);
+    color: rgb(115, 115, 110);
+}
+
+.signin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 20px;
+}
+
+.signin-box {
+    background-color: white;
+    padding: 45px;
+    border-radius: 30px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
+}
+
+.signin-box span {
+    color: rgb(218, 90, 90);
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.signin-box h2 {
+    margin: 10px 0 30px 0;
+}
+
+.signin-box form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.signin-box input[type="email"],
+.signin-box input[type="password"] {
+    padding: 14px 20px;
+    border-radius: 25px;
+    border: 1px solid rgb(225, 225, 225);
+    background-color: rgb(247, 247, 247);
+    outline: none;
+    font-family: inherit;
+}
+
+.form-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    color: gray;
+    margin: 5px 0;
+}
+
+.form-options a {
+    color: rgb(93, 145, 229);
+    text-decoration: none;
+}
+
+.ptn {
+    background-color: rgb(242, 177, 177);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.ptn:hover {
+    background-color: rgb(93, 145, 229);
+}
+
+.register-link {
+    margin-top: 25px;
+    font-size: 14px;
+    color: gray;
+}
+
+.register-link a {
+    color: rgb(218, 90, 90);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: rgb(93, 145, 229);
+    color: white;
+    text-align: center;
+    padding: 30px;
+    border-radius: 100px 100px 0 0;
+}
